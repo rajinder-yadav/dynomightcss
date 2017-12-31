@@ -12,7 +12,7 @@ export class SyntaxDirective implements OnInit {
   @Input('syntax') code = '';
 
   ngOnInit() {
-    this.el.nativeElement.class = `${this.el.nativeElement.class} w70 mxa`;
+    // this.el.nativeElement.class = `${this.el.nativeElement.class} w70 mxa`;
     this.el.nativeElement.innerText = this.code;
     hljs.highlightBlock(this.el.nativeElement);
   }
