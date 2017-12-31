@@ -15,17 +15,17 @@ export class CodeBlockComponent implements OnInit, AfterViewInit {
   @Input() cls = '';
 
   constructor(private el: ElementRef) {
-    console.log('code-block ctor');
+    // console.log('code-block ctor');
   }
 
   ngOnInit() {
-    console.log('code-block init');
+    // console.log('code-block init');
   }
 
   ngAfterViewInit() {
-  console.log('after view init');
-    // this.el.nativeElement.class = `${this.el.nativeElement.class} js w70 mxa`;
+  // console.log('after view init');
+    // this.el.nativeElement.class = `${this.el.nativeElement.class} w70 mxa`;
     // this.el.nativeElement.innerText = this.code;
-    // hljs.highlightBlock(this.el.nativeElement);
+    hljs.highlightBlock(this.el.nativeElement);
   }
 }
