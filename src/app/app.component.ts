@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import * as hljs from 'highlight.js';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +7,5 @@ import * as hljs from 'highlight.js';
 })
 export class AppComponent {
   constructor() {
-    hljs.initHighlightingOnLoad();
   }
 }
