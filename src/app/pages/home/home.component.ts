@@ -24,7 +24,7 @@ export class HomeComponent {
     <link href="https://cdn.jsdelivr.net/npm/dm-css@2.3.1/css/dm.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, Inter-Web!</h1>
+    <h1>Dyno Might CSS gives you CSS superpower!</h1>
   </body>
 </html>`;
 }
