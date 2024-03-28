@@ -31,7 +31,7 @@
             ],
             "styles": [
               "src/styles.sass",
-              "/home/yadav/.nvm/versions/node/v18.18.2/lib/node_modules/dm-css/css/dm.min.css"
+              "node_modules/dm-css/css/dm.min.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
